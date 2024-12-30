@@ -1,0 +1,50 @@
+# Environnement Python
+venv/
+env/
+*.env
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de configuration IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Fichiers de build et distribution
+build/
+dist/
+*.egg-info/
+
+# Fichiers de système
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.swp
+*.swo
+*~
+
+# Fichiers de données sensibles
+*.key
+*.pem
+*.cert
+
+# Dépendances
+*.lock
+requirements.txt.old
+
+# Fichiers de débogage
+debug.log
+error.log
+
+# Fichiers de cache
+.cache/
+.pytest_cache/
+htmlcov/
+.coverage
