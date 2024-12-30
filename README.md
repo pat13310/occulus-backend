@@ -1,43 +1,36 @@
-# ADB Dashboard API
+# Occulus Backend
+API de gestion de manettes XR (Réalité Étendue)
 
 ## Description
 
-API de gestion et de contrôle de périphériques Android via ADB (Android Debug Bridge).
+API spécialisée dans la gestion et le contrôle des manettes pour systèmes de réalité étendue.
 
 ## Fonctionnalités Principales
 
 - Authentification sécurisée
-- Gestion des périphériques Android
-- Contrôle des applications
-- Gestion des fichiers
+- Gestion des périphériques de manettes XR
+- Contrôle des interactions
 - Configuration système
 - Outils de débogage
 
 ## Prérequis
 
 - Python 3.8+
-- ADB installé
-- Périphériques Android en mode débogage
+- Environnement de développement XR
 
 ## Installation
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/votre-organisation/adb-dashboard-api.git
+git clone https://github.com/pat13310/occulus-backend.git
 
 # Créer un environnement virtuel
 python -m venv venv
-source venv/bin/activate  # Sur Windows: venv\Scripts\activate
+venv\Scripts\activate  # Commande pour Windows
 
 # Installer les dépendances
 pip install -r requirements.txt
 ```
-
-## Configuration
-
-1. Configurez les paramètres dans `config.py`
-2. Assurez-vous que ADB est correctement installé
-3. Activez le mode développeur sur vos périphériques Android
 
 ## Démarrage
 
@@ -46,15 +39,11 @@ pip install -r requirements.txt
 uvicorn src.main:app --reload
 ```
 
-## Documentation API
-
-Consultez le [MANUEL_UTILISATION.md](MANUEL_UTILISATION.md) pour une documentation complète.
-
 ## Sécurité
 
 - Utilisez HTTPS en production
 - Gérez vos tokens de session
-- Limitez l'accès réseau
+- Sécurisez les connexions des périphériques
 
 ## Contribution
 
@@ -65,8 +54,8 @@ Consultez le [MANUEL_UTILISATION.md](MANUEL_UTILISATION.md) pour une documentati
 
 ## Licence
 
-[Spécifiez votre licence]
+[À spécifier]
 
 ## Contact
 
-[Vos informations de contact]
+[Informations de contact]
